@@ -4,13 +4,17 @@
 
 **MessageQueues** - sends some data between two tasks
 
+**BasicTimers** - Just a basic software timer
+
+**PeriodicTask** -calls a task only when a timer is done
+
 
 
 ## To Do: (if possible)
 
 - Passing Structures in Message Queues
 - Multiple Consumers Message Queues
-- Memory Pools - are not a bare bones FreeRTOS artefact - need CMSIS API
+- ~~Memory Pools - are not a bare bones FreeRTOS artefact - need CMSIS API~~
 - Mutex
 - Semaphore
 - Timers
