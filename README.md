@@ -19,7 +19,7 @@
 - ~~Memory Pools - are not a bare bones FreeRTOS artefact - need CMSIS API~~
 - Mutex
 - Semaphore
-- Interrupts 
+- adding CMSIS? \#include "[cmsis_os2.h](https://docs.silabs.com/cmsis/latest/rtos2/cmsis-os2-h)"     
 
 ## Resources
 
