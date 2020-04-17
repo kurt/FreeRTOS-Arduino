@@ -4,9 +4,11 @@
 
 **MessageQueues** - sends some data between two tasks
 
-**BasicTimers** - Just a basic software timer
+**BasicTimers** - Just some basic software timers
 
-**PeriodicTask** -calls a task only when a timer is done
+**PeriodicTask** -calls a couple of tasks when a timer is done
+
+**BasicInterrupt** - Interrupts one task with another task by triggering an ISR (connect a wire from PIN13 to PIN2).
 
 
 
@@ -17,10 +19,10 @@
 - ~~Memory Pools - are not a bare bones FreeRTOS artefact - need CMSIS API~~
 - Mutex
 - Semaphore
-- Timers
 - Interrupts 
 
 ## Resources
 
-- https://techtutorialsx.com/
+- https://www.freertos.org/a00106.html - FreeRTOS API
+- https://techtutorialsx.com/ - some tutorials
 
